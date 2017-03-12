@@ -1,0 +1,15 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "Empty React with Webpack site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://tardis.rodentia.net/var/git/react-webpack.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
