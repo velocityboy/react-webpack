@@ -11,5 +11,8 @@
     "url": "ssh://tardis.rodentia.net/var/git/react-webpack.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
 }
