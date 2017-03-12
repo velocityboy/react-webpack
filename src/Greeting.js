@@ -1,11 +1,10 @@
 /**
- * React webpack example
- *
- * Copyright © 2017 Jim Geist. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
+* Copyright (C) 2017 by Jim Geist
+*
+* This software is licensed BSD0 per the contents of the file LICENSE.txt in
+* the root of the repository.
+*/
+
 import React, { PropTypes } from 'react';
 
 class Greeting extends React.Component
