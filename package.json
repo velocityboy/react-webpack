@@ -20,6 +20,7 @@
     "webpack": "^2.2.1"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "run": "node build/bundle.js"
   }
 }
