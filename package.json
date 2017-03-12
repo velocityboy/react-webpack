@@ -2,25 +2,32 @@
   "name": "react-webpack",
   "version": "1.0.0",
   "description": "Empty React with Webpack site",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "run": "node build/bundle.js",
+    "server": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
     "url": "ssh://tardis.rodentia.net/var/git/react-webpack.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "velocityboy",
+  "license": "BSD0",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.23.1",
     "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.2.1",
     "babel-preset-es2015": "^6.22.0",
-    "webpack": "^2.2.1"
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   },
-  "scripts": {
-    "build": "webpack",
-    "run": "node build/bundle.js"
+  "dependencies": {
+    "express-server": "^0.7.0"
   }
 }
